@@ -1,0 +1,40 @@
+name: solaceai
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=3.3.2 <4.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+    webview_flutter: ^2.0.0
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  equatable: ^2.0.5
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Sora
+      fonts: 
+        - asset: assets/fonts/SoraRegular.ttf
+          weight: 600
+        - asset: assets/fonts/SoraBold.ttf
+          weight: 700
+        - asset: assets/fonts/SoraSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/SoraLight.ttf
+          weight: 300
+    - family: Figtree
+      fonts: 
+        - asset: assets/fonts/FigtreeSemiBold.ttf
+          weight: 600
